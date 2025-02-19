@@ -1,9 +1,9 @@
-function count_Vowels(element) {
+function count_Vowels(vowel) {
     let count = 0;
 
-    for (let i = 0; i < element.length; i++) {
+    for (let i = 0; i < vowel.length; i++) {
 
-      if (element[i] === "a" || element[i] === "e" || element[i] === "i" || element[i] === "o" || element[i] === "u") {
+      if (vowel[i] === "a" || vowel[i] === "e" || vowel[i] === "i" || vowel[i] === "o" || vowel[i] === "u") {
         count++;
       }
 
